@@ -4,16 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Title Of My Page</title>
+<title>Student Confirmation</title>
 </head>
 <body>
-	<h2>Welcome to the main menu</h2>
-	
-	<a href="hello/showForm"> Show Form</a>
-
-	<br><br>	
-	<a href="student/showForm"> Student Form</a>
-	
-	
+	The student is confirmed: ${student.firstName} ${student.lastName}
 </body>
 </html>
